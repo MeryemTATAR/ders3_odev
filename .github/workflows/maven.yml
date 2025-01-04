@@ -31,7 +31,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B package --file MetinEditoru/pom.xml
+      run: mvn -B package --file MetinEditoru2/pom.xml
     - name: Coverage
       id: jacoco
       uses: madrapps/jacoco-report@v1.3
